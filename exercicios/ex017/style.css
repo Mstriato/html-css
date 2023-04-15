@@ -1,0 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+h1 {
+    font: 5em 'Fredericka the Great', cursive;
+    text-align: center;
+}
+h2 { 
+    font: 3em 'Fredericka the Great', cursive; 
+    text-align: center;
+}
