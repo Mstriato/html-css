@@ -1,10 +1,21 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+:root{ 
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Caveat', cursive;
+    --fonte3: 'Shadows Into Light', cursive;
+
+}
 * { 
     margin: 0px;
     padding: 0px;
 }
 html, body { 
+    font-family: var(--fonte1);
     min-height: 100vh;
     background-color: darkgray;
 }
@@ -14,6 +25,8 @@ header {
     text-align: center;
 }
 header > h1 { 
+    font-family: var(--fonte3);
+    font-size: 10vh;
     padding-top: 50px;
     font-variant: small-caps;
 }
@@ -34,12 +47,15 @@ header a:hover, footer a:hover {
     padding: 2px;
 }
 section { 
+    font-family: var(--fonte2);
+    font-size: 4vh;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
 }
 section.normal { 
+    padding-left: 50px;
     background-color: white;
     color: black;
 }
@@ -48,8 +64,8 @@ section.imagem {
     color: white;
 }
 section.imagem > p { 
-    width: 400px;
-    border-radius: 5px;
+    display: inline-block;
+    border-radius: 7px;
     background-color: rgba(0, 0, 0, 0.425);
     padding: 2%;
 
