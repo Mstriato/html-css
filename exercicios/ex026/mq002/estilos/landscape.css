@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
-div { 
-    height: 50px;
-    width: 50px;
-    background-color: black;
-    border-radius: 25%;
+body { 
+    background: url('../imagens/landscape.jpg') no-repeat;
+    background-size: contain;
 }
